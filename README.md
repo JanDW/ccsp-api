@@ -1,8 +1,8 @@
 # CSSP Mock API
 
-This repository contains the code for generating the mock API the [ccsp-experiment](https://github.mit.edu/jandw/ccsp-experiment) prototype depends on.
+This repository contains the code for generating the mock API the [ccsp-experiment](https://github.com/JanDW/ccsp-ui/) prototype depends on.
 
-The [prototype runs on github pages](https://github.mit.edu/pages/jandw/ccsp-experiment/) but requires this API. It's currently running on my personal Heroku account at https://ccsp-api.herokuapp.com/ The API contains mock data generated with [faker.js](https://github.com/Marak/faker.js), so there are no privacy issues.
+The [prototype runs on github pages](https://jandw.github.io/ccsp-ui/) but requires this API. It's currently running on my personal Heroku account at https://ccsp-api.herokuapp.com/ The API contains mock data generated with [faker.js](https://github.com/Marak/faker.js), so there are no privacy issues.
 
 The following instructions assume you have `node.js` and `npm` installed on your system.
 
