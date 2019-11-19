@@ -59,13 +59,13 @@ heroku create app-name
 5. Add the heroku remote to your clone of this repository (substitute `app-name` with your choice)
 
 ```bash
-git remote add origin https://git.heroku.com/app-name.git
+git remote add heroku https://git.heroku.com/app-name.git
 ```
 
 I added this repository as well (assuming you're using SSH instead of HTTPS)
 
 ```bash
-git remote add mit git@github.mit.edu:jandw/ccsp-api.git
+git remote add origin git@github.mit.edu:jandw/ccsp-api.git
 ```
 
 6. Check your remotes are properly set up
@@ -76,10 +76,10 @@ git remote -v
 
 should output this in the terminal
 ```bash
-mit	git@github.mit.edu:jandw/ccsp-api.git (fetch)
-mit	git@github.mit.edu:jandw/ccsp-api.git (push)
-origin	https://git.heroku.com/jans-test.git (fetch)
-origin	https://git.heroku.com/jans-test.git (push)
+origin	git@github.mit.edu:jandw/ccsp-api.git (fetch)
+origin	git@github.mit.edu:jandw/ccsp-api.git (push)
+heroku	https://git.heroku.com/jans-test.git (fetch)
+herolu	https://git.heroku.com/jans-test.git (push)
 ```
 
 7. If needed, build the API and commit it
@@ -91,12 +91,12 @@ npm run-script make-api && git add -A && git commit -m "API build"
 8. Push the API to heroku
 
 ```bash
-git push -u origin master
+git push -u heroku master
 ```
 This also sets up tracking, so in the future, you should be able to just use `git push` to deploy. Next, push the changes to `github.mit.edu/jandw/ccsp-api`
 
 ```bash
-git push mit master
+git push origin master
 ```
 You should see the push, followed by terminal output regarding the heroku build of the api
 
