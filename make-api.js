@@ -375,7 +375,7 @@ const Application = (employee, spouse) => {
  application.comments = [
    {
      message : 'Employee has provided corrected documents. Proceeding to approve.',
-     author : 'Kathy Kasabula',
+     author : 'Kate Goldstein',
      timestamp: '2018-08-17T09:55:00.553Z',
      type: 'internal'
    },{
@@ -385,7 +385,7 @@ const Application = (employee, spouse) => {
      type: 'external'
    },{
      message : 'Hi, in order to for us to proceed with your application, please supply versions of your financial documentation translated into English.',
-     author : 'Kathy Kasabula',
+     author : 'Kate Goldstein',
      timestamp: '2018-08-14T10:11:15.553Z',
      type: 'external'
    }
