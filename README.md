@@ -1,5 +1,9 @@
 # CSSP Mock API
 
+⚠️  Moved to Render since Heroku removed free tier → https://ccsp-api.onrender.com/
+
+---
+
 This repository contains the code for generating the mock API the [ccsp-experiment](https://github.com/JanDW/ccsp-ui/) prototype depends on.
 
 The [prototype runs on github pages](https://jandw.github.io/ccsp-ui/) but requires this API. It's currently running on my personal Heroku account at https://ccsp-api.herokuapp.com/ The API contains mock data generated with [faker.js](https://github.com/Marak/faker.js), so there are no privacy issues.
